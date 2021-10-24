@@ -1,6 +1,7 @@
 
+
 ```r
-   // # probability-statistics-R
+   // probability and statistics-R
 ```
 # Subtiltles for code available
 - permutations
