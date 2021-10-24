@@ -6,4 +6,10 @@
 
 ## Distributions
 - ## Discrete
+- • Bernoulli
+- Binomial
+- Geometric
+- Negative Binomial
+- Poisson
+- Hypergeometric
 - ## Continuous
