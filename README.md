@@ -1,6 +1,6 @@
 # probability-statistics-R
 
-## subtiltles for code available
+# Subtiltles for code available
 - permutations
 - combinations
 
