@@ -13,3 +13,9 @@
 - Poisson
 - Hypergeometric
 - ## Continuous
+- Uniform
+- Exponential
+- Normal
+- Gamma
+- Weibull
+- Beta
