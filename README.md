@@ -6,3 +6,4 @@
 
 ## Distributions
 - ## Discrete
+- ## Continuous
