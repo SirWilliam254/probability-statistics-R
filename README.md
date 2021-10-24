@@ -1,5 +1,7 @@
-# probability-statistics-R
 
+```html
+   // # probability-statistics-R
+```
 # Subtiltles for code available
 - permutations
 - combinations
