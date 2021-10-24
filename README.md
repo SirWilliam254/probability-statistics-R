@@ -1,5 +1,5 @@
 
-```html
+```r
    // # probability-statistics-R
 ```
 # Subtiltles for code available
