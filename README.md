@@ -6,7 +6,7 @@
 
 ## Distributions
 - ## Discrete
-- • Bernoulli
+- Bernoulli
 - Binomial
 - Geometric
 - Negative Binomial
