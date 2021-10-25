@@ -23,4 +23,4 @@
 - Weibull
 - Beta
 
-# Marcov Chains
+## Marcov Chains
