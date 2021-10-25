@@ -7,6 +7,8 @@
 - permutations
 - combinations
 
+"https://www.analyzemath.com/probabilities/bayes-theorem.html"
+
 ## Distributions
 - ## Discrete
 - Bernoulli
