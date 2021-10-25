@@ -12,10 +12,10 @@
 ## Distributions
 - ## Discrete
 - Bernoulli
-- 
+
 A Bernoulli trial is an experiment with only two outcomes. i.e success or failure
 - Binomial
-- 
+
 "https://www.vrcbuzz.com/binomial-distribution-probabilities-using-r/"
 - Geometric
 - Negative Binomial
