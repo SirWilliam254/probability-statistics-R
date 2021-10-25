@@ -8,7 +8,7 @@
 - combinations
 
 "https://www.analyzemath.com/probabilities/bayes-theorem.html"
-
+- pmf and cdf plotting
 ## Distributions
 - ## Discrete
 - Bernoulli
