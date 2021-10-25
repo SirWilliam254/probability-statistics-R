@@ -13,6 +13,7 @@
 - ## Discrete
 - Bernoulli
 - Binomial
+https://www.vrcbuzz.com/binomial-distribution-probabilities-using-r/
 - Geometric
 - Negative Binomial
 - Poisson
