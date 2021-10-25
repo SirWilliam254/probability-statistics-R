@@ -13,3 +13,8 @@ cumsum(px)
 cdf_0 <- stepfun(0:2, c(0, cumsum(px)), f = 0)
 plot(cdf_0, verticals=FALSE, xlim=c(0, 3), pch = 19, main=NULL,
      ylab="F(x)")
+
+## Expected value of x
+x <- 0:2
+EX <- sum(x*px)
+EX
