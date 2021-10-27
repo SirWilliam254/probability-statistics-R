@@ -36,6 +36,10 @@ observed. If X denotes the number of failures obtained prior to getting the rth 
 then X is said to be a negative binomial random variable.
 
 - Poisson
+
+A random variable X that takes counting values 0, 1, 2, . . ., is said to be a Poisson
+random variable with parameter λ, for some positive  λ value
+
 - Hypergeometric
 - ## Continuous
 - Uniform
