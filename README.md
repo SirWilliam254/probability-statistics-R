@@ -50,6 +50,8 @@ randomly and sequentially from the lot, without replacement. Let X denote
 the number of successes amongst the n sampled items, then X is said to have a
 hypergeometric distribution. [code !!](https://github.com/SirWilliam254/probability-statistics-R/blob/main/Hypergeometric.R)
 
+[SIMULATING DISCRETE](https://github.com/SirWilliam254/probability-statistics-R/blob/main/simulating_discrete.R)
+
 - ## Continuous
 - Uniform
 - Exponential
