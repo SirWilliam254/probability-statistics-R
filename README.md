@@ -7,6 +7,8 @@
 - permutations
 - combinations
 - Venn Diagram "3 groups"
+
+- Bayes theorem + conditional probabilities examples: 
 "https://www.analyzemath.com/probabilities/bayes-theorem.html"
 - pmf and cdf plotting
 ## Distributions
