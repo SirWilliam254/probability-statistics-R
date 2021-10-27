@@ -16,9 +16,9 @@
 A Bernoulli trial is an experiment with only two outcomes. i.e success or failure
 - Binomial
 
- Binomial random variable X is a the number of successes in n
+ Binomial random variable X is more like n
 independent and identical Bernoulli trials in which the probability of a success
-is p, 0 < p < 1. Then, for X ∼ B(n, p)
+is p, 0 < p < 1. i.e  X ∼ B(n, p)
 
 "https://www.vrcbuzz.com/binomial-distribution-probabilities-using-r/"
 - Geometric
