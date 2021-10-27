@@ -8,8 +8,7 @@
 - combinations [code !!](https://github.com/SirWilliam254/probability-statistics-R/blob/main/combinations.R)
 - Venn Diagram "3 groups"
 [code !!](https://github.com/SirWilliam254/probability-statistics-R/blob/main/venn%20diagram.R)
-- Bayes theorem + conditional probabilities examples: 
-"https://www.analyzemath.com/probabilities/bayes-theorem.html"
+- Bayes theorem + conditional probabilities examples: [HERE !!](https://www.analyzemath.com/probabilities/bayes-theorem.html)
 - pmf and cdf plotting [code !!](https://github.com/SirWilliam254/probability-statistics-R/blob/main/pmf%26cdf_barplot.R)
 ## Distributions
 - ## Discrete
@@ -21,8 +20,7 @@
     Binomial random variable X is more like n
 independent and identical Bernoulli trials in which the probability of a success
 is p, 0 < p < 1. i.e  X ∼ B(n, p) [code !!](https://github.com/SirWilliam254/probability-statistics-R/blob/main/binomial.R)
-
-"https://www.vrcbuzz.com/binomial-distribution-probabilities-using-r/"
+[Some details HERE !!](https://www.vrcbuzz.com/binomial-distribution-probabilities-using-r/)
 - Geometric
 
     Suppose that a sequence of independent and identical Bernoulli trials, each
