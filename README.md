@@ -20,6 +20,8 @@
     Binomial random variable X is more like n
 independent and identical Bernoulli trials in which the probability of a success
 is p, 0 < p < 1. i.e  X ∼ B(n, p) [code !!](https://github.com/SirWilliam254/probability-statistics-R/blob/main/binomial.R)
+
+
 [Some details HERE !!](https://www.vrcbuzz.com/binomial-distribution-probabilities-using-r/)
 - Geometric
 
