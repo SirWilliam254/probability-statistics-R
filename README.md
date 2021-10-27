@@ -6,7 +6,7 @@
 # Subtiltles for code available
 - permutations
 - combinations
-
+- Venn Diagram "3 groups"
 "https://www.analyzemath.com/probabilities/bayes-theorem.html"
 - pmf and cdf plotting
 ## Distributions
