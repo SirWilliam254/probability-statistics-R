@@ -18,7 +18,7 @@ objectz_perms
 
 ######  Partitions
 factorial(n)/ (factorial(n1)*factorial(n2)*factorial(n3)) # works for the case below
-# Permutation of a word
+# Permutation of a word /Diff arrangements
 t1 <- c("p", "e", "p", "p", "e", "r")
 library(combinat)
 my_list<-combinat::permn(t1)
