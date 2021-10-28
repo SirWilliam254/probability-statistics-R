@@ -77,7 +77,7 @@ A random variable X is Normally distributed, X ∼ N(µ, σ2
 ), if and only
 if it has probability density function:
 
-fX(x) = 1√2πσ2e− 12 (x−µ  /σ )2, x ∈ R, σ > 0
+fX(x) = 
                       
 - Gamma
 - Weibull
