@@ -72,6 +72,13 @@ and only if it has density function:
           0 , otherwise
 
 - Normal
+
+A random variable X is Normally distributed, X ∼ N(µ, σ2
+), if and only
+if it has probability density function:
+
+fX(x) = 1√2πσ2e− 12 (x−µ )2, x ∈ R, σ > 0
+                      /σ
 - Gamma
 - Weibull
 - Beta
