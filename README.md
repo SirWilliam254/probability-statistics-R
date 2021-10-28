@@ -64,6 +64,13 @@ f(x) =
 
 
 - Exponential
+
+ A random variable X has an exponential distribution, X ∼ Exp(λ), if
+and only if it has density function:
+
+   f(x) = λe−λx where x ≥ 0, λ > 0
+          0 , otherwise
+
 - Normal
 - Gamma
 - Weibull
