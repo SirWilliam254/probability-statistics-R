@@ -54,6 +54,14 @@ hypergeometric distribution. [code !!](https://github.com/SirWilliam254/probabil
 
 - ## Continuous
 - Uniform
+
+ The random variable X has a uniform distribution on the interval (a, b)
+if its density function is given by:
+f(x) = 
+          1 /               
+            b−a
+
+
 - Exponential
 - Normal
 - Gamma
