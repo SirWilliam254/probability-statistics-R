@@ -1,0 +1,51 @@
+---
+title: "models"
+author: "WILLIam"
+date: "10/29/2021"
+output: html
+---
+# Gamma
+$$f(x) = \frac {x^{\alpha-1} \lambda^{\alpha} e^{-\lambda x}}{\Gamma\alpha}$$
+
+## mean
+$$E(x) = \frac{\alpha}{\lambda}$$
+
+## Variance
+$$Var(x) = \frac{\alpha}{\lambda^2}$$
+
+
+
+# Beta
+$$f(x) = \frac{\Gamma(\alpha+\beta)}{\Gamma(\alpha)\Gamma(\beta)}x^{\alpha - 1}(1-x)^{\beta -1}$$
+
+## mean
+$$E(X)=\frac{\alpha}{\alpha+\beta}$$
+
+## Variance
+$$Var(x)=\frac{\alpha\beta}{(\alpha+\beta)^2(\alpha+\beta+1)}$$
+
+# Uniform
+$$f(x)=\frac{1}{b-a}$$
+
+## mean 
+$$E(x)=\frac{a+b}{2}$$
+## Variance
+$$Var(x)=\frac{(b-a)^2}{12}$$
+# Exponential
+$$f(x)=\lambda e^{-\lambda x}$$
+## mean
+$$E(x)= \frac{1}{\lambda}$$
+## Variance
+$$Var(x)= \frac{1}{\lambda^2}$$
+# Weibull
+$$f(x)=\left(\frac{\alpha}{\theta}\right)\left(\frac{x}{\theta}\right)^{\alpha-1} e^{-({\frac{x}{\theta})^\alpha}}$$
+## mean
+$$E(x)=~~\Theta \Gamma(1+\frac{1}{\alpha})$$
+## Variance
+$$Var(x)=~~\Theta^2 \left(\Gamma(1+\frac{2}{\alpha})-\Gamma(1+\frac{1}{\alpha})^2\right)$$
+# Normal
+$$f(x)= \frac{1}{\sqrt{2 \pi \sigma^2}}e^{-\frac{1}{2}} \left(\frac{x - \mu}{\sigma}\right)^2 $$
+## mean 
+$$E(x)= \mu$$
+## Variance
+$$Var(x)=\sigma^2$$
