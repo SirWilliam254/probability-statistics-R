@@ -57,7 +57,7 @@ hypergeometric distribution. [code !!](https://github.com/SirWilliam254/probabil
 
  The random variable X has a uniform distribution on the interval (a, b)
 if its density function is given by:
-```r
+```rmd
 # Uniform
 $$f(x)=\frac{1}{b-a}$$
 
@@ -87,10 +87,50 @@ A random variable X is Normally distributed, X ∼ N(µ, σ2
 ), if and only
 if it has probability density function:
 
-fX(x) = 
+```rmd
+# Normal
+$$f(x)= \frac{1}{\sqrt{2 \pi \sigma^2}}e^{-\frac{1}{2}} \left(\frac{x - \mu}{\sigma}\right)^2 $$
+## mean 
+$$E(x)= \mu$$
+## Variance
+$$Var(x)=\sigma^2$$
+```
                       
 - Gamma
+
+```rmd
+# Gamma
+$$f(x) = \frac {x^{\alpha-1} \lambda^{\alpha} e^{-\lambda x}}{\Gamma\alpha}$$
+
+## mean
+$$E(x) = \frac{\alpha}{\lambda}$$
+
+## Variance
+$$Var(x) = \frac{\alpha}{\lambda^2}$$
+```
 - Weibull
+
+```rmd
+# Weibull
+$$f(x)=\left(\frac{\alpha}{\theta}\right)\left(\frac{x}{\theta}\right)^{\alpha-1} e^{-({\frac{x}{\theta})^\alpha}}$$
+## mean
+$$E(x)=~~\Theta \Gamma(1+\frac{1}{\alpha})$$
+## Variance
+$$Var(x)=~~\Theta^2 \left(\Gamma(1+\frac{2}{\alpha})-\Gamma(1+\frac{1}{\alpha})^2\right)$$
+```
+
 - Beta
+
+```
+# Beta
+$$f(x) = \frac{\Gamma(\alpha+\beta)}{\Gamma(\alpha)\Gamma(\beta)}x^{\alpha - 1}(1-x)^{\beta -1}$$
+
+## mean
+$$E(X)=\frac{\alpha}{\alpha+\beta}$$
+
+## Variance
+$$Var(x)=\frac{\alpha\beta}{(\alpha+\beta)^2(\alpha+\beta+1)}$$
+```
+
 
 ## Marcov Chains
