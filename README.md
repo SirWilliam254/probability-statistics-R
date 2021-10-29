@@ -71,8 +71,15 @@ $$Var(x)=\frac{(b-a)^2}{12}$$
  A random variable X has an exponential distribution, X ∼ Exp(λ), if
 and only if it has density function:
 
-   f(x) = λe−λx where x ≥ 0, λ > 0
-          0 , otherwise
+```rmd
+# Exponential
+$$f(x)=\lambda e^{-\lambda x}$$
+## mean
+$$E(x)= \frac{1}{\lambda}$$
+## Variance
+$$Var(x)= \frac{1}{\lambda^2}$$
+```
+  
 
 - Normal
 
