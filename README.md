@@ -97,6 +97,8 @@ $$Var(x)=\sigma^2$$
 ```
                       
 - Gamma
+ A random variable X has a Weibull distribution, X ∼ Weibull(α, θ) with
+shape parameter α > 0 and scale parameter θ > 0, if it has density function:
 
 ```rmd
 # Gamma
@@ -109,6 +111,8 @@ $$E(x) = \frac{\alpha}{\lambda}$$
 $$Var(x) = \frac{\alpha}{\lambda^2}$$
 ```
 - Weibull
+ A random variable X has a Weibull distribution, X ∼ Weibull(α, θ) with
+shape parameter α > 0 and scale parameter θ > 0, if it has density function:
 
 ```rmd
 # Weibull
@@ -120,7 +124,8 @@ $$Var(x)=~~\Theta^2 \left(\Gamma(1+\frac{2}{\alpha})-\Gamma(1+\frac{1}{\alpha})^
 ```
 
 - Beta
-
+ A random variable X has a Beta distribution, X ∼ Beta(α, β) with α > 0
+and β > 0, if it has density function:
 ```
 # Beta
 $$f(x) = \frac{\Gamma(\alpha+\beta)}{\Gamma(\alpha)\Gamma(\beta)}x^{\alpha - 1}(1-x)^{\beta -1}$$
