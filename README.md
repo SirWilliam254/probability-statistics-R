@@ -126,7 +126,7 @@ $$Var(x)=~~\Theta^2 \left(\Gamma(1+\frac{2}{\alpha})-\Gamma(1+\frac{1}{\alpha})^
 - Beta
  A random variable X has a Beta distribution, X ∼ Beta(α, β) with α > 0
 and β > 0, if it has density function:
-```
+```py
 # Beta
 $$f(x) = \frac{\Gamma(\alpha+\beta)}{\Gamma(\alpha)\Gamma(\beta)}x^{\alpha - 1}(1-x)^{\beta -1}$$
 
