@@ -57,11 +57,13 @@ hypergeometric distribution. [code !!](https://github.com/SirWilliam254/probabil
 
  The random variable X has a uniform distribution on the interval (a, b)
 if its density function is given by:
-f(x) = 
+# Uniform
+$$f(x)=\frac{1}{b-a}$$
 
-          1 /               
-            b−a
-
+## mean 
+$$E(x)=\frac{a+b}{2}$$
+## Variance
+$$Var(x)=\frac{(b-a)^2}{12}$$
 
 - Exponential
 
