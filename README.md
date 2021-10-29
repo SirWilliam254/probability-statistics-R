@@ -57,6 +57,7 @@ hypergeometric distribution. [code !!](https://github.com/SirWilliam254/probabil
 
  The random variable X has a uniform distribution on the interval (a, b)
 if its density function is given by:
+```r
 # Uniform
 $$f(x)=\frac{1}{b-a}$$
 
@@ -64,7 +65,7 @@ $$f(x)=\frac{1}{b-a}$$
 $$E(x)=\frac{a+b}{2}$$
 ## Variance
 $$Var(x)=\frac{(b-a)^2}{12}$$
-
+```
 - Exponential
 
  A random variable X has an exponential distribution, X ∼ Exp(λ), if
