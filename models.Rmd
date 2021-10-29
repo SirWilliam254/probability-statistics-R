@@ -1,8 +1,8 @@
 ---
-title: "models"
+title: "continous distributions"
 author: "WILLIam"
 date: "10/29/2021"
-output: html
+output: word-document
 ---
 # Gamma
 $$f(x) = \frac {x^{\alpha-1} \lambda^{\alpha} e^{-\lambda x}}{\Gamma\alpha}$$
