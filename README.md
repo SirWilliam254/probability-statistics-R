@@ -122,7 +122,7 @@ $$E(x)=~~\Theta \Gamma(1+\frac{1}{\alpha})$$
 ## Variance
 $$Var(x)=~~\Theta^2 \left(\Gamma(1+\frac{2}{\alpha})-\Gamma(1+\frac{1}{\alpha})^2\right)$$
 ```
-
+[code!](https://github.com/SirWilliam254/probability-statistics-R/blob/main/weibull.R)
 - Beta
  A random variable X has a Beta distribution, X ∼ Beta(α, β) with α > 0
 and β > 0, if it has density function:
