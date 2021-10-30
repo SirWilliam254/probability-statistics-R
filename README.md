@@ -66,7 +66,7 @@ $$E(x)=\frac{a+b}{2}$$
 ## Variance
 $$Var(x)=\frac{(b-a)^2}{12}$$
 ```
-[code!](https://github.com/SirWilliam254/probability-statistics-R/blob/main/uniform.R)
+[code !](https://github.com/SirWilliam254/probability-statistics-R/blob/main/uniform.R)
 - Exponential
 
  A random variable X has an exponential distribution, X ∼ Exp(λ), if
@@ -80,7 +80,7 @@ $$E(x)= \frac{1}{\lambda}$$
 ## Variance
 $$Var(x)= \frac{1}{\lambda^2}$$
 ```
- [code!](https://github.com/SirWilliam254/probability-statistics-R/blob/main/exponential.R) 
+ [code !](https://github.com/SirWilliam254/probability-statistics-R/blob/main/exponential.R) 
 
 - Normal
 
@@ -96,7 +96,7 @@ $$E(x)= \mu$$
 ## Variance
 $$Var(x)=\sigma^2$$
 ```
-[code!](https://github.com/SirWilliam254/probability-statistics-R/blob/main/normal.R)                      
+[code !](https://github.com/SirWilliam254/probability-statistics-R/blob/main/normal.R)                      
 - Gamma
  A random variable X has a Weibull distribution, X ∼ Weibull(α, θ) with
 shape parameter α > 0 and scale parameter θ > 0, if it has density function:
@@ -111,7 +111,7 @@ $$E(x) = \frac{\alpha}{\lambda}$$
 ## Variance
 $$Var(x) = \frac{\alpha}{\lambda^2}$$
 ```
-[code!](https://github.com/SirWilliam254/probability-statistics-R/blob/main/gamma.R)
+[code !](https://github.com/SirWilliam254/probability-statistics-R/blob/main/gamma.R)
 - Weibull
  A random variable X has a Weibull distribution, X ∼ Weibull(α, θ) with
 shape parameter α > 0 and scale parameter θ > 0, if it has density function:
@@ -124,7 +124,7 @@ $$E(x)=~~\Theta \Gamma(1+\frac{1}{\alpha})$$
 ## Variance
 $$Var(x)=~~\Theta^2 \left(\Gamma(1+\frac{2}{\alpha})-\Gamma(1+\frac{1}{\alpha})^2\right)$$
 ```
-[code!](https://github.com/SirWilliam254/probability-statistics-R/blob/main/weibull.R)
+[code !](https://github.com/SirWilliam254/probability-statistics-R/blob/main/weibull.R)
 - Beta
  A random variable X has a Beta distribution, X ∼ Beta(α, β) with α > 0
 and β > 0, if it has density function:
@@ -138,6 +138,6 @@ $$E(X)=\frac{\alpha}{\alpha+\beta}$$
 ## Variance
 $$Var(x)=\frac{\alpha\beta}{(\alpha+\beta)^2(\alpha+\beta+1)}$$
 ```
-[code!](https://github.com/SirWilliam254/probability-statistics-R/blob/main/Beta.R)
+[code !](https://github.com/SirWilliam254/probability-statistics-R/blob/main/Beta.R)
 
 ## Marcov Chains
