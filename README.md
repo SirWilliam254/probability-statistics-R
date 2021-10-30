@@ -66,6 +66,7 @@ $$E(x)=\frac{a+b}{2}$$
 ## Variance
 $$Var(x)=\frac{(b-a)^2}{12}$$
 ```
+[code!](https://github.com/SirWilliam254/probability-statistics-R/blob/main/uniform.R)
 - Exponential
 
  A random variable X has an exponential distribution, X ∼ Exp(λ), if
