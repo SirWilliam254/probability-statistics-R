@@ -111,6 +111,7 @@ $$E(x) = \frac{\alpha}{\lambda}$$
 ## Variance
 $$Var(x) = \frac{\alpha}{\lambda^2}$$
 ```
+[code!](https://github.com/SirWilliam254/probability-statistics-R/blob/main/gamma.R)
 - Weibull
  A random variable X has a Weibull distribution, X ∼ Weibull(α, θ) with
 shape parameter α > 0 and scale parameter θ > 0, if it has density function:
