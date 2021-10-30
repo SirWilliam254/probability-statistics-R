@@ -10,9 +10,9 @@
 [code !!](https://github.com/SirWilliam254/probability-statistics-R/blob/main/venn%20diagram.R)
 - Bayes theorem + conditional probabilities examples: [HERE !!](https://www.analyzemath.com/probabilities/bayes-theorem.html)
 - pmf and cdf plotting [code !!](https://github.com/SirWilliam254/probability-statistics-R/blob/main/pmf%26cdf_barplot.R)
-## Distributions
-- ## Discrete
-- Bernoulli
+# Distributions
+- # Discrete
+- ## Bernoulli
 
    A Bernoulli trial is an experiment with only two outcomes. i.e success or failure [code !!]()
 - Binomial
@@ -23,26 +23,26 @@ is p, 0 < p < 1. i.e  X ∼ B(n, p) [code !!](https://github.com/SirWilliam254/p
 
 
 [Some details HERE !!](https://www.vrcbuzz.com/binomial-distribution-probabilities-using-r/)
-- Geometric
+- ## Geometric
 
     Suppose that a sequence of independent and identical Bernoulli trials, each
 having probability of success p, 0 < p < 1, are performed until a success is
 observed. If X denotes the number of failures obtained prior to the first success,
 then X is said to be a geometric random variable. [code !!](https://github.com/SirWilliam254/probability-statistics-R/blob/main/geometric.R)
 
-- Negative Binomial
+- ## Negative Binomial
 
    Suppossing that a sequence of independent and identical Bernoulli trials, each
 having probability of success p," where 0 ≤ p ≤ 1", are performed until r successes are
 observed. If X denotes the number of failures obtained prior to getting the rth success,
 then X is said to be a negative binomial random variable. [code !!](https://github.com/SirWilliam254/probability-statistics-R/blob/main/negative%20binomial.R)
 
-- Poisson
+- ## Poisson
 
    A random variable X that takes counting values 0, 1, 2, . . ., is said to be a Poisson
 random variable with parameter λ, for some positive  λ value. [code !!](https://github.com/SirWilliam254/probability-statistics-R/blob/main/poisson.R)
 
-- Hypergeometric
+- ## Hypergeometric
 
    Suppose that a lot consists of N items, of which k are of one type (success)
 and N − k are of another type (failures). Suppose that n items are sampled
@@ -52,8 +52,8 @@ hypergeometric distribution. [code !!](https://github.com/SirWilliam254/probabil
 
 [SIMULATING DISCRETE](https://github.com/SirWilliam254/probability-statistics-R/blob/main/simulating_discrete.R)
 
-- ## Continuous
-- Uniform
+- # Continuous
+- ## Uniform
 
  The random variable X has a uniform distribution on the interval (a, b)
 if its density function is given by:
@@ -67,7 +67,7 @@ $$E(x)=\frac{a+b}{2}$$
 $$Var(x)=\frac{(b-a)^2}{12}$$
 ```
 [code !](https://github.com/SirWilliam254/probability-statistics-R/blob/main/uniform.R)
-- Exponential
+- ## Exponential
 
  A random variable X has an exponential distribution, X ∼ Exp(λ), if
 and only if it has density function:
@@ -82,7 +82,7 @@ $$Var(x)= \frac{1}{\lambda^2}$$
 ```
  [code !](https://github.com/SirWilliam254/probability-statistics-R/blob/main/exponential.R) 
 
-- Normal
+- ## Normal
 
 A random variable X is Normally distributed, X ∼ N(µ, σ2
 ), if and only
@@ -97,7 +97,9 @@ $$E(x)= \mu$$
 $$Var(x)=\sigma^2$$
 ```
 [code !](https://github.com/SirWilliam254/probability-statistics-R/blob/main/normal.R)                      
-- Gamma
+- ## Gamma
+
+
  A random variable X has a Weibull distribution, X ∼ Weibull(α, θ) with
 shape parameter α > 0 and scale parameter θ > 0, if it has density function:
 
@@ -112,7 +114,9 @@ $$E(x) = \frac{\alpha}{\lambda}$$
 $$Var(x) = \frac{\alpha}{\lambda^2}$$
 ```
 [code !](https://github.com/SirWilliam254/probability-statistics-R/blob/main/gamma.R)
-- Weibull
+- ## Weibull
+
+
  A random variable X has a Weibull distribution, X ∼ Weibull(α, θ) with
 shape parameter α > 0 and scale parameter θ > 0, if it has density function:
 
@@ -125,7 +129,7 @@ $$E(x)=~~\Theta \Gamma(1+\frac{1}{\alpha})$$
 $$Var(x)=~~\Theta^2 \left(\Gamma(1+\frac{2}{\alpha})-\Gamma(1+\frac{1}{\alpha})^2\right)$$
 ```
 [code !](https://github.com/SirWilliam254/probability-statistics-R/blob/main/weibull.R)
-- Beta
+- ## Beta
  A random variable X has a Beta distribution, X ∼ Beta(α, β) with α > 0
 and β > 0, if it has density function:
 ```rmd
