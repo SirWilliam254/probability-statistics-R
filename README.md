@@ -96,7 +96,7 @@ $$E(x)= \mu$$
 ## Variance
 $$Var(x)=\sigma^2$$
 ```
-                      
+[code!](https://github.com/SirWilliam254/probability-statistics-R/blob/main/normal.R)                      
 - Gamma
  A random variable X has a Weibull distribution, X ∼ Weibull(α, θ) with
 shape parameter α > 0 and scale parameter θ > 0, if it has density function:
