@@ -136,6 +136,6 @@ $$E(X)=\frac{\alpha}{\alpha+\beta}$$
 ## Variance
 $$Var(x)=\frac{\alpha\beta}{(\alpha+\beta)^2(\alpha+\beta+1)}$$
 ```
-
+[code!](https://github.com/SirWilliam254/probability-statistics-R/blob/main/Beta.R)
 
 ## Marcov Chains
