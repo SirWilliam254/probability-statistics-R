@@ -80,7 +80,7 @@ $$E(x)= \frac{1}{\lambda}$$
 ## Variance
 $$Var(x)= \frac{1}{\lambda^2}$$
 ```
-  
+ [code!](https://github.com/SirWilliam254/probability-statistics-R/blob/main/exponential.R) 
 
 - Normal
 
