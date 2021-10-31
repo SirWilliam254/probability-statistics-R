@@ -15,7 +15,7 @@
 - ## Bernoulli
 
    A Bernoulli trial is an experiment with only two outcomes. i.e success or failure [code !!]()
-- Binomial
+- ## Binomial
 
     Binomial random variable X is more like n
 independent and identical Bernoulli trials in which the probability of a success
