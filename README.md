@@ -54,7 +54,7 @@ hypergeometric distribution. [code !!](https://github.com/SirWilliam254/probabil
 
 + # Continuous
 - ## Uniform
-## !!!!! DISCLAIMER: The pdfs are in Rmd form hence can not render here
+## [The Pdfs and their means and variances in Rmd format !!](https://github.com/SirWilliam254/probability-statistics-R/blob/main/models.Rmd)
  The random variable X has a uniform distribution on the interval (a, b)
 if its density function is given by:
 ```math
