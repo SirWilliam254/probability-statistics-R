@@ -3,6 +3,14 @@
 ```r
    // probability and statistics-R
 ```
+## Dependencies
+- shape
+- diagram
+- gtools
+- VennDiagram
+- combinat
+
+
 # Subtiltles for code available
 - permutations [code !!](https://github.com/SirWilliam254/probability-statistics-R/blob/main/permutation.R)
 - combinations [code !!](https://github.com/SirWilliam254/probability-statistics-R/blob/main/combinations.R)
