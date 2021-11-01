@@ -61,8 +61,10 @@ hypergeometric distribution. [code !!](https://github.com/SirWilliam254/probabil
 [SIMULATING DISCRETE](https://github.com/SirWilliam254/probability-statistics-R/blob/main/simulating_discrete.R)
 
  # Continuous
+ ## [The Pdfs, means and their variances in Rmd format !!](https://github.com/SirWilliam254/probability-statistics-R/blob/main/models.Rmd)
+ 
 - ## Uniform
-## [The Pdfs and their means and variances in Rmd format !!](https://github.com/SirWilliam254/probability-statistics-R/blob/main/models.Rmd)
+
  The random variable X has a uniform distribution on the interval (a, b).
  
 [code !](https://github.com/SirWilliam254/probability-statistics-R/blob/main/uniform.R)
