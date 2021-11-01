@@ -54,10 +54,10 @@ hypergeometric distribution. [code !!](https://github.com/SirWilliam254/probabil
 
 + # Continuous
 - ## Uniform
-
+## !!!!! DISCLAIMER: The pdfs are in Rmd form hence can not render here
  The random variable X has a uniform distribution on the interval (a, b)
 if its density function is given by:
-```rmd
+```math
 # Uniform
 $$f(x)=\frac{1}{b-a}$$
 
