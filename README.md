@@ -19,7 +19,7 @@
 - Bayes theorem + conditional probabilities examples: [HERE !!](https://www.analyzemath.com/probabilities/bayes-theorem.html)
 - pmf and cdf plotting [code !!](https://github.com/SirWilliam254/probability-statistics-R/blob/main/pmf%26cdf_barplot.R)
 # Distributions
-+ # Discrete
+ # Discrete
 - ## Bernoulli
 
    A Bernoulli trial is an experiment with only two outcomes. i.e success or failure [code !!]()
@@ -60,7 +60,7 @@ hypergeometric distribution. [code !!](https://github.com/SirWilliam254/probabil
 
 [SIMULATING DISCRETE](https://github.com/SirWilliam254/probability-statistics-R/blob/main/simulating_discrete.R)
 
-+ # Continuous
+ # Continuous
 - ## Uniform
 ## [The Pdfs and their means and variances in Rmd format !!](https://github.com/SirWilliam254/probability-statistics-R/blob/main/models.Rmd)
  The random variable X has a uniform distribution on the interval (a, b).
