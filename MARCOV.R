@@ -1,18 +1,6 @@
 ##MARCOV CHAIN
-P <- matrix(c(0.9, 0.1,
-              0.2, 0.8), nrow=2, ncol=2, byrow=TRUE)
 library(shape)
 library(diagram)
-# plotting
-plotmat(t(P), curve=0.3, pos=c(2), box.size=0.1,
-        self.shifty = c(0.1, 0.1),
-        self.shiftx = c(-0.1, 0.1),
-        self.lwd = 2,
-        self.arrpos = c(1, 1),
-        shadow.size = 0,
-        cex = 1,
-        box.cex = 1.5)
-
 
 # matrix
 P <- matrix(c(0.7, 0.3,
@@ -26,21 +14,26 @@ A = rbind(A, rep(1, nStates))
 b <- c(rep(0, nStates-1), 1)
 # Solve
 pi_theoretical <- solve(A,b)
-
+# plotting
+plotmat(t(P), curve=0.3, pos=c(2), box.size=0.1,
+        self.shifty = c(0.1, 0.1),
+        self.shiftx = c(-0.1, 0.1),
+        self.lwd = 2,
+        self.arrpos = c(1, 1),
+        shadow.size = 0,
+        cex = 1,
+        box.cex = 1.5)
 ###############################################################################
 ########################## SIMULATING #########################################
 set.seed(123)
 #Specify states
 S <- c(1,2)
 M <- length(S)
-#Define transition matrix P
-P <- matrix(data=c(0.9, 0.1,
-                   0.2, 0.8),
-            nrow=2, ncol=2, byrow=TRUE)
+P
 dimnames(P) <- list(S, S)
 P
-#Determine number of simulations
-numStages <- 1e5
+#simulations
+numStages <- 1e4
 #Initialize vector x
 x <- rep(NA, numStages+1)
 names(x) <- 0:numStages
