@@ -74,7 +74,7 @@ hypergeometric distribution. [code !!](https://github.com/SirWilliam254/probabil
 
 - ## Normal
 formulas
-```r
+``` r
 dnorm(x, mean, sd)
 pnorm(x, mean, sd)
 qnorm(Fx, mean, sd)
@@ -83,7 +83,7 @@ rnorm(numSims, mean, sd)
 [code !](https://github.com/SirWilliam254/probability-statistics-R/blob/main/normal.R)                      
 - ## Gamma
 formulas
-```r
+``` r
 dgamma(x, alpha, lambda)
 pgamma(x, alpha, lambda)
 qgamma(Fx, alpha, lambda)
@@ -92,7 +92,7 @@ rgamma(numSims, alpha, lambda)
  
 [code !](https://github.com/SirWilliam254/probability-statistics-R/blob/main/gamma.R)
 - ## Weibull
-```r
+``` r
 formulas
 dweibull(x, shape = alpha, scale = theta)
 pweibull(x, shape = alpha, scale = theta)
@@ -101,7 +101,7 @@ rweibull(numSims, shape = alpha, scale = theta)
 ``` 
 [code !](https://github.com/SirWilliam254/probability-statistics-R/blob/main/weibull.R)
 - ## Beta
-```r
+``` r
 formulas
 dbeta(x,alpha, beta)
 pbeta(x,alpha, beta)
