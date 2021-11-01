@@ -114,4 +114,4 @@ rbeta(numSims, alpha, beta)
 These is a mathematical system which experiences transitions 
 from a state to another based on certain probabilistic rules
 
-[INTRO Code !!](https://github.com/SirWilliam254/probability-statistics-R/blob/main/MARCOV.R)
+[Code!!](https://github.com/SirWilliam254/probability-statistics-R/blob/main/MARCOV.R)
