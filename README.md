@@ -74,15 +74,18 @@ hypergeometric distribution. [code !!](https://github.com/SirWilliam254/probabil
 
 - ## Normal
 formulas
+
 ``` r
 dnorm(x, mean, sd)
 pnorm(x, mean, sd)
 qnorm(Fx, mean, sd)
 rnorm(numSims, mean, sd)
 ```
+
 [code !](https://github.com/SirWilliam254/probability-statistics-R/blob/main/normal.R)                      
 - ## Gamma
 formulas
+
 ``` r
 dgamma(x, alpha, lambda)
 pgamma(x, alpha, lambda)
@@ -92,6 +95,8 @@ rgamma(numSims, alpha, lambda)
  
 [code !](https://github.com/SirWilliam254/probability-statistics-R/blob/main/gamma.R)
 - ## Weibull
+
+
 ``` r
 formulas
 dweibull(x, shape = alpha, scale = theta)
@@ -101,6 +106,8 @@ rweibull(numSims, shape = alpha, scale = theta)
 ``` 
 [code !](https://github.com/SirWilliam254/probability-statistics-R/blob/main/weibull.R)
 - ## Beta
+
+
 ``` r
 formulas
 dbeta(x,alpha, beta)
@@ -108,6 +115,8 @@ pbeta(x,alpha, beta)
 qbeta(Fx,alpha, beta)
 rbeta(numSims, alpha, beta)
 ```
+
+
 [code !](https://github.com/SirWilliam254/probability-statistics-R/blob/main/Beta.R)
 
 # Marcov Chains
