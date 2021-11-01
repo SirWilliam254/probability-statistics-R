@@ -55,92 +55,50 @@ hypergeometric distribution. [code !!](https://github.com/SirWilliam254/probabil
 + # Continuous
 - ## Uniform
 ## [The Pdfs and their means and variances in Rmd format !!](https://github.com/SirWilliam254/probability-statistics-R/blob/main/models.Rmd)
- The random variable X has a uniform distribution on the interval (a, b)
-if its density function is given by:
-```math
-# Uniform
-$$f(x)=\frac{1}{b-a}$$
-
-## mean 
-$$E(x)=\frac{a+b}{2}$$
-## Variance
-$$Var(x)=\frac{(b-a)^2}{12}$$
-```
+ The random variable X has a uniform distribution on the interval (a, b).
+ 
 [code !](https://github.com/SirWilliam254/probability-statistics-R/blob/main/uniform.R)
 - ## Exponential
 
- A random variable X has an exponential distribution, X ∼ Exp(λ), if
-and only if it has density function:
-
-```rmd
-# Exponential
-$$f(x)=\lambda e^{-\lambda x}$$
-## mean
-$$E(x)= \frac{1}{\lambda}$$
-## Variance
-$$Var(x)= \frac{1}{\lambda^2}$$
-```
+ A random variable X has an exponential distribution, X ∼ Exp(λ).It is often used to model the time elapsed between events.
+ 
  [code !](https://github.com/SirWilliam254/probability-statistics-R/blob/main/exponential.R) 
 
 - ## Normal
-
-A random variable X is Normally distributed, X ∼ N(µ, σ2
-), if and only
-if it has probability density function:
-
-```rmd
-# Normal
-$$f(x)= \frac{1}{\sqrt{2 \pi \sigma^2}}e^{-\frac{1}{2}} \left(\frac{x - \mu}{\sigma}\right)^2 $$
-## mean 
-$$E(x)= \mu$$
-## Variance
-$$Var(x)=\sigma^2$$
+formulas
+```r
+dnorm(x, mean, sd)
+pnorm(x, mean, sd)
+qnorm(Fx, mean, sd)
+rnorm(numSims, mean, sd)
 ```
 [code !](https://github.com/SirWilliam254/probability-statistics-R/blob/main/normal.R)                      
 - ## Gamma
-
-
- A random variable X has a Weibull distribution, X ∼ Weibull(α, θ) with
-shape parameter α > 0 and scale parameter θ > 0, if it has density function:
-
-```rmd
-# Gamma
-$$f(x) = \frac {x^{\alpha-1} \lambda^{\alpha} e^{-\lambda x}}{\Gamma\alpha}$$
-
-## mean
-$$E(x) = \frac{\alpha}{\lambda}$$
-
-## Variance
-$$Var(x) = \frac{\alpha}{\lambda^2}$$
+formulas
+```r
+dgamma(x, alpha, lambda)
+pgamma(x, alpha, lambda)
+qgamma(Fx, alpha, lambda)
+rgamma(numSims, alpha, lambda)
 ```
+ 
 [code !](https://github.com/SirWilliam254/probability-statistics-R/blob/main/gamma.R)
 - ## Weibull
-
-
- A random variable X has a Weibull distribution, X ∼ Weibull(α, θ) with
-shape parameter α > 0 and scale parameter θ > 0, if it has density function:
-
-```rmd
-# Weibull
-$$f(x)=\left(\frac{\alpha}{\theta}\right)\left(\frac{x}{\theta}\right)^{\alpha-1} e^{-({\frac{x}{\theta})^\alpha}}$$
-## mean
-$$E(x)=~~\Theta \Gamma(1+\frac{1}{\alpha})$$
-## Variance
-$$Var(x)=~~\Theta^2 \left(\Gamma(1+\frac{2}{\alpha})-\Gamma(1+\frac{1}{\alpha})^2\right)$$
-```
+```r
+formulas
+dweibull(x, shape = alpha, scale = theta)
+pweibull(x, shape = alpha, scale = theta)
+qweibull(Fx, shape = alpha, scale = theta)
+rweibull(numSims, shape = alpha, scale = theta)
+``` 
 [code !](https://github.com/SirWilliam254/probability-statistics-R/blob/main/weibull.R)
 - ## Beta
- A random variable X has a Beta distribution, X ∼ Beta(α, β) with α > 0
-and β > 0, if it has density function:
-```rmd
-# Beta
-$$f(x) = \frac{\Gamma(\alpha+\beta)}{\Gamma(\alpha)\Gamma(\beta)}x^{\alpha - 1}(1-x)^{\beta -1}$$
-
-## mean
-$$E(X)=\frac{\alpha}{\alpha+\beta}$$
-
-## Variance
-$$Var(x)=\frac{\alpha\beta}{(\alpha+\beta)^2(\alpha+\beta+1)}$$
+```r
+formulas
+dbeta(x,alpha, beta)
+pbeta(x,alpha, beta)
+qbeta(Fx,alpha, beta)
+rbeta(numSims, alpha, beta)
 ```
 [code !](https://github.com/SirWilliam254/probability-statistics-R/blob/main/Beta.R)
 
