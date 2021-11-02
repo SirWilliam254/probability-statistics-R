@@ -1,5 +1,3 @@
-
-
 ```r
    // probability and statistics-R
 ```
