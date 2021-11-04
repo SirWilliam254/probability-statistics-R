@@ -80,4 +80,15 @@ plot(1:numStagesPlot, pi_cumsum [1:numStagesPlot,1],
      cex.lab = 1.5
 )
 
-##################### simulating a process #######
+##################### inputing a cdf in r #######
+Fx <- numeric(length(x))
+x_range1 <- x < 0
+x_range2 <- x >= 0 & x < 1
+x_range3 <- x >= 1 & x < 2
+x_range4 <- x >= 2
+# cdf
+Fx[x_range1] <- 0
+Fx[x_range2] <- (0.3*(x[x_range2]^2))
+Fx[x_range3] <- 0.7 - (0.1*(x[x_range3]))
+Fx[x_range4] <- 1
+
