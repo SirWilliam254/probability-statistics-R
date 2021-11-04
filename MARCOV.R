@@ -80,3 +80,4 @@ plot(1:numStagesPlot, pi_cumsum [1:numStagesPlot,1],
      cex.lab = 1.5
 )
 
+##################### simulating a process #######
