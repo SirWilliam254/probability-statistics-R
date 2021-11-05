@@ -1,8 +1,8 @@
 # to produce a binomial we can use:
-#dbinom(x, n, p)
-#pbinom(x, n, p)  ##Binomial cumulative probability
-#qbinom(Fx, n, p)
-#rbinom(numSims, n, p) ## simulation
+dbinom(x, n, p)
+pbinom(x, n, p)  ##Binomial cumulative probability
+qbinom(Fx, n, p)
+rbinom(numSims, n, p) ## simulation
 
 #  probability function and distribution function of the binomial distribution 
 #with n = 10 and p = 0.3 for values of x = 0, 1, . . . , 10:
