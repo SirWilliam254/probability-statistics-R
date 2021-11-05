@@ -1,7 +1,7 @@
-#dexp(x, lambda)
-#pexp(x, lambda)
-#qexp(Fx, lambda)
-#rexp(numSims, lambda)
+dexp(x, lambda)
+pexp(x, lambda)
+qexp(Fx, lambda)
+rexp(numSims, lambda)
 
 # for instance  an exponential random variable X with mean 3. we can find P(X > 4).
 lambda <- 1/3
