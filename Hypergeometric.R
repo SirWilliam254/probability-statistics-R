@@ -1,7 +1,7 @@
-#dhyper(x, k, N-k, n)
-#phyper(x, k, N-k, n)
-#qhyper(x, k, N-k, n)
-#rhyper(numSims, k, N-k, n)
+dhyper(x, k, N-k, n)
+phyper(x, k, N-k, n)
+qhyper(x, k, N-k, n)
+rhyper(numSims, k, N-k, n)
 #### where;
 
 #x = number of successes
