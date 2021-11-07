@@ -1,8 +1,8 @@
-set.seed(123)
+set.seed(123) # ensuring reproducibility
 x <- seq(10, 50, 10)
-px <- c(0.1, 0.1, 0.3, 0.3, 0.2)
+px <- c(0.1, 0.1, 0.3, 0.3, 0.2) # probability density function
 Fx <- cumsum(px)
-Fx
+Fx # cdf
 
 numSims <- 1e4
 u.all <- runif(numSims)
