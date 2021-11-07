@@ -1,5 +1,5 @@
 ```r
-   probability-statistics-R
+   probability & statistics in R
 ```
 ## Dependencies
 - shape
