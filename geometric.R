@@ -1,7 +1,7 @@
-#dgeom(x, p)
-#pgeom(x, p)
-#qgeom(Fx, p)
-#rgeom(numSims, p)
+dgeom(x, p)
+pgeom(x, p)
+qgeom(Fx, p)
+rgeom(numSims, p)
 
 # probability of observing 5 failures before the first success, given the 
 # probability of success is 0.3.
