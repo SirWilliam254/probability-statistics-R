@@ -1,7 +1,7 @@
-#dnbinom(x, r, p)
-#pnbinom(x, r, p)
-#qnbinom(Fx, r, p)
-#rnbinom(numSims, r, p)
+dnbinom(x, r, p)
+pnbinom(x, r, p)
+qnbinom(Fx, r, p)
+rnbinom(numSims, r, p)
 ##probability of observing 3 failures before the second
 ##success, if the probability of success is 0.2:
 p <- 0.2
