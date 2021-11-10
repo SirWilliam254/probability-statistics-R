@@ -1,7 +1,7 @@
-#dnorm(x, mean, sd)
-#pnorm(x, mean, sd)
-#qnorm(Fx, mean, sd)
-#rnorm(numSims, mean, sd)
+dnorm(x, mean, sd)
+pnorm(x, mean, sd)
+qnorm(Fx, mean, sd)
+rnorm(numSims, mean, sd)
 
 # Considering a normal random variable X with mean 2 and variance 0.3. 
 #we can find P(X < 1.7)
