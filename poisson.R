@@ -1,7 +1,7 @@
-#dpois(x, lambda)
-#ppois(x, lambda)
-#qpois(Fx, lambda)
-#rpois(numSims, lambda)
+dpois(x, lambda)
+ppois(x, lambda)
+qpois(Fx, lambda)
+rpois(numSims, lambda)
 #### If a certain type of event occurs at a rate of 3 per day, the
 #### probability that on a particular day, 5 events are observed is:
 lambda <- 3
