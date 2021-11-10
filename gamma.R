@@ -1,7 +1,7 @@
-#dgamma(x, alpha, lambda)
-#pgamma(x, alpha, lambda)
-#qgamma(Fx, alpha, lambda)
-#rgamma(numSims, alpha, lambda)
+dgamma(x, alpha, lambda)
+pgamma(x, alpha, lambda)
+qgamma(Fx, alpha, lambda)
+rgamma(numSims, alpha, lambda)
 
 # considering a gamma random variable X with shape parameter 1.8 and rate
 # parameter 2. we can find P(X < 3.5).
