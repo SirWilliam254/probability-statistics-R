@@ -1,7 +1,6 @@
 ---
 title: "continous distributions"
 author: "WILLIam"
-date: "10/29/2021"
 output: word-document
 ---
 # Gamma
