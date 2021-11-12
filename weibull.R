@@ -1,5 +1,5 @@
-#dweibull(x, shape = alpha, scale = theta)
-#pweibull(x, shape = alpha, scale = theta)
+dweibull(x, shape = alpha, scale = theta)
+pweibull(x, shape = alpha, scale = theta)
 #qweibull(Fx, shape = alpha, scale = theta)
 #rweibull(numSims, shape = alpha, scale = theta)
 
