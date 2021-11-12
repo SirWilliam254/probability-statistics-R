@@ -1,6 +1,6 @@
 ---
 title: "continous distributions"
-author: "WILLIam"
+author: "WILLIAM"
 output: word-document
 ---
 # Gamma
