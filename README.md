@@ -8,8 +8,8 @@
 - VennDiagram
 - combinat
 
+# Subtiltles for the code that is available
 
-# Subtiltles for code available
 - permutations [code !!](https://github.com/SirWilliam254/probability-statistics-R/blob/main/permutation.R)
 - combinations [code !!](https://github.com/SirWilliam254/probability-statistics-R/blob/main/combinations.R)
 - Venn Diagram "3 groups"
