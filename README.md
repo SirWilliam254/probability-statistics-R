@@ -195,5 +195,29 @@ These are just a few examples of what you can do with a markovchain object in R.
 
 Here's an example of how to visualize the Markov chain we defined earlier using the markovchainList(), graph.adjacency(), and plot.igraph() functions:
 
+```r
+# Define the Markov chain as a list of transitions
+chain_list <- list(c("L", "L", 0.5), c("L", "M", 0.3),
+                   c("L", "H", 0.2), c("M", "L", 0.5),
+                   c("M", "M", 0.4), c("M", "H", 0.0),
+                   c("H", "M", 0.3), c("H", "H", 0.8))
 
+# Convert the list to a markovchainList object
+chain <- markovchainList(chain_list)
+
+# Convert the transition matrix to an adjacency matrix
+adj_matrix <- as.matrix(chain)
+
+# Convert the adjacency matrix to an igraph object
+graph <- graph.adjacency(adj_matrix, mode = "directed", weighted = TRUE)
+
+# Plot the graph
+plot.igraph(graph, vertex.label = chain@states, vertex.size = 30,
+            vertex.color = "white", edge.width = chain@transitionMatrix*10,
+            layout = layout.circle)
+```
+
+This code first defines the Markov chain as a list of transitions, and then converts it to a markovchainList object. It then converts the transition matrix to an adjacency matrix using the as.matrix() function, and converts the adjacency matrix to an igraph object using the graph.adjacency() function. Finally, it plots the graph using the plot.igraph() function, specifying various parameters such as the vertex labels, sizes, colors, and the edge widths.
+
+The resulting plot shows the three states of the Markov chain as vertices (labeled "L", "M", and "H"), and the transitions between them as directed edges with varying widths, proportional to the transition probabilities.
 
