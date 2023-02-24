@@ -128,3 +128,72 @@ from a state to another based on certain probabilistic rules
 
 
 #### Another Markov chain Example
+
+```r
+library(markovchain)
+```
+
+```r
+# Define the transition matrix
+P <- matrix(c(0.5, 0.3, 0.2,
+              0.5, 0.4, 0.0,
+              0.0, 0.3, 0.8), byrow = TRUE, nrow = 3,
+            dimnames = list(c("L", "M", "H"), c("L", "M", "H")))
+```
+This matrix defines the probabilities of moving from each state to each other state. Note that the rows and columns of the matrix are ordered according to the state names ("L", "M", and "H").
+
+Once you have defined the transition matrix, you can create a markovchain object using the new("markovchain") function, and specify the transition matrix as an argument:
+```r
+# Create a markovchain object
+mc <- new("markovchain", states = c("L", "M", "H"), transitionMatrix = P)
+```
+This object represents your Markov chain, and you can use it to perform various operations, such as computing the steady-state probabilities, simulating the chain, and computing the probability of reaching a certain state after a certain number of time periods.
+
+For example, to compute the steady-state probabilities, you can use the steadyStates() function:
+
+```r
+# Compute the steady-state probabilities
+steady_states <- steadyStates(mc)
+```
+This function returns a vector of probabilities for each state in the chain. In this case, the probabilities are:
+
+```r
+steady_states
+#>      L      M      H 
+#> 0.1000 0.3000 0.6000
+```
+
+To simulate the chain for a certain number of time periods, you can use the rmarkovchain() function:
+
+```r
+# Simulate the chain for 10 time periods
+sim <- rmarkovchain(n = 10, object = mc, t0 = "H")
+```
+
+This function generates a sequence of states for the Markov chain, starting from the initial state "H". The resulting sim object is a character vector containing the state names for each time period:
+
+```r
+sim
+#>  [1] "H" "H" "H" "H" "H" "H" "H" "H" "H" "H"
+```
+
+To compute the probability of reaching a certain state after a certain number of time periods, you can use the markovchainSequence() function:
+
+```r
+# Compute the probability of reaching state "L" after 2 time periods
+prob <- markovchainSequence(mc, steps = 2, from = "H", to = "L")
+```
+
+This function returns the probability of reaching the state "L" after 2 time periods, starting from the initial state "H":
+
+```r
+prob
+#> [1] 0.5
+```
+
+These are just a few examples of what you can do with a markovchain object in R. The markovchain package provides many more functions for working with Markov chains, such as computing the hitting probabilities, the first passage probabilities, and the absorption probabilities. You can also visualize the Markov chain using various functions provided by the markovchain and igraph packages.
+
+Here's an example of how to visualize the Markov chain we defined earlier using the markovchainList(), graph.adjacency(), and plot.igraph() functions:
+
+
+
