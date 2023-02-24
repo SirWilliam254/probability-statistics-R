@@ -125,3 +125,6 @@ These is a mathematical system which experiences transitions
 from a state to another based on certain probabilistic rules
 
 [Code!!](https://github.com/SirWilliam254/probability-statistics-R/blob/main/MARCOV.R)
+
+
+#### Another Markov chain Example
